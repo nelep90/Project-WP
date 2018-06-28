@@ -1,0 +1,2 @@
+/* site for template*/
+https://wordpress.org/themes/blacky/
