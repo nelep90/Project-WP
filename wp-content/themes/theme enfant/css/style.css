@@ -3,10 +3,85 @@ Theme Name: Theme enfant
 Description: Theme enfant de Nenad
 Author: Nenad - WPserveur
 Author URI: http://localhost/wordpress/
-Template: appointment
+Template: blacky
 Version: 0.1.0
 */
 body{
-background-color: gray;
+padding: 0;
+margin: 0;
+background-color: #786A68;
+}
+header{
+width: 100%;
+height: auto;
 
+}
+.main{
+width: 100%;
+}
+.main_bg{
+width: 80%;
+}
+
+
+.logo{
+    float: left;
+    background-color: #AC663D;
+}
+ul {
+    padding-right: 10%;
+    list-style-type: none;
+    margin: 0;
+    padding: auto;
+    overflow: hidden;
+    background-color: #B9B1B0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    border-bottom: 5px solid  #AC663D;
+}
+
+.active {
+    background-color: #AC663D;
+}
+.footer{
+    width: 100%;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem; 
+    text-align: center;
+    background-color:#786A68;
+}
+.right_footer {
+    width: 30%;
+    float: right;
+}
+.left_footer{
+    width: 80%;
+    float: left;
+}
+.footer_lg{
+    padding: auto;
+    margin: auto;
+display: inline;
+
+padding: auto;
+width: 130px;
+height: 50px;
 }

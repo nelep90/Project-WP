@@ -1,0 +1,63 @@
+/*
+Theme Name: VCB-ACS
+Author: Nenad Paasajlic
+Author URI: http://localhost/wordpress/
+Description: WP projet, VCB promo17
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+body{
+padding: 0;
+margin: 0;
+background-color: #786A68;
+width: 100%;
+background-image: url("assets/imgs/bg_img.jpg");
+background-size: 80%;
+background-repeat: no-repeat;
+
+}
+header{
+width: 100%;
+height: 65px;
+
+}
+.main{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+   
+}
+.main_bg{    
+    padding: 0;
+    margin: 0; 
+}
+
+.logo{
+    float: left;
+    background-color: #AC663D;
+}
+
+
+
+/* Contact form */
+.contact{
+    margin: 5% 5%;
+    width: 250px;
+    height: 400px;
+   
+   
+}
+.form_btn{
+    
+    width: 100%;
+    height: 10%;
+    opacity: 0.5;
+    margin: 5%;
+    border: 2px solid #AC663D;
+    text-align: center;
+    font-weight: bold;
+}
+.orange{
+    background-color: #AC663D;
+}
