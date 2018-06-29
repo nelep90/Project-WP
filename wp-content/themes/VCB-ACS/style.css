@@ -28,12 +28,18 @@ background-repeat: no-repeat;
     background-color: #B9B1B0;
     width: 100%;
     float: left;
-    height: 65%;
+    height: auto;
   
 }
 .my-logo{
   float: left;
   background-color: #AC663D;
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 15px;
 }
 .header_left{
   float: right;
@@ -41,12 +47,15 @@ background-repeat: no-repeat;
 }
 
 /* Menu */
-.menu-menu-1-container{
-height: 100%;
-width: auto;
-
-
+.menu{
+  width: 100%;
+ float: right;
+  
+  margin-right: 20px; 
+    float: right;
+    color: #AC663D
 }
+
 ul {
   padding-right:  5%;
   list-style-type: none;
@@ -88,23 +97,24 @@ li a:hover:not(.active) {
 
 /* footer*/
 footer {
-  width: 100%;  
+  width: 100%;    
   color: white;
-  position: absolute;
+  position: absolute;  
+  display: inline; 
   right: 0;
   bottom: 0;
-  left: 0;
-  padding: 1rem; 
+  left: 0;  
   text-align: center;
   background-color:#786A68;
 }
 .right_footer {
-  width: 30%;
-  float: right;
+  padding-right: 10px;
+    float: right;
 }
 .left_footer{
   width: 80%;
-  float: left;
+    float: left;
+    text-align: center;
 }
 .footer_lg{
   padding: auto;
@@ -153,8 +163,10 @@ a {
 }
 
 .primary-sidebar {
-  width: 20%;
+  margin: 20px;
+  width: 17%; 
   vertical-align: top;
+  text-align: center;
   background-color: #ececec;
   float: right;
 }
@@ -169,6 +181,13 @@ a {
 .article-full {
   width: 99%;
   padding: 1%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFF;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  opacity: 0.5;
+  margin: 20px;
 }
 
 .article-loop,
