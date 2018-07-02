@@ -1,11 +1,10 @@
 /*
-Theme Name: VCB-ACS
-Author: Nenad Paasajlic
-Author URI: http://localhost/wordpress/
-Description: WP projet, VCB promo17
+Theme Name: VCB Promo17 Enfant par Nenad Pasajlic
+Description: Theme enfant du theme VCB Promo17. Vous pouvez desormais le personnaliser sans risquer de perdre vos modifications
+Author: Nenad Pasajlic
+Author URI: localhost/wordpress
+Template: novellite
 Version: 1.0
-License: GNU General Public License v3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
 * {
@@ -48,7 +47,7 @@ background-repeat: no-repeat;
 
 /* Menu */
 .menu{
-  width: 100%;
+  width: 55%;
  float: right;
   
   margin-right: 20px; 

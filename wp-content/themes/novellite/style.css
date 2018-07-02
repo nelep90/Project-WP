@@ -335,7 +335,8 @@ fieldset[disabled] .btn-xl.active {
 color:#fff;
 }
 .navbar-header {
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
+    background-color:black;
 }
 .navbar-header h1,.navbar-header p{
  margin:0;   

@@ -1,0 +1,87 @@
+/*
+Theme Name: VCB Promo17 Enfant par Nenad Pasajlic
+Description: Site de promo17 VCB
+Author URI: localhost/wordpress
+Template: novellite
+Version: 1.0
+*/
+@media (min-width: 1200px){
+    .container {
+        width: 100%;
+    }
+
+.navbar{
+    background-color: #B9B1B0;
+    width: 100%;
+}
+
+/*logo*/
+
+.navbar-header{
+    background-image: url("images/LogoACS.png");
+}
+
+.page_heading_container {
+    padding: 0;
+}
+/*main page */
+
+.page-content {
+     border: 0; 
+   background: transparent; 
+    padding-bottom: 25px;
+    width: 100%;
+    padding-top: 35px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    overflow: hidden;
+}
+
+.page-content {
+    padding-bottom: 25px;
+    width: 100%;
+    padding-top: 35px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    overflow: hidden;
+}
+.col-md-9 {
+    width: 60%;   
+    padding-left: 10%;
+}
+
+/* right navigation */
+.col-md-3{
+    background-color: rgb(255, 255, 255); opacity:0.6;
+    float: right;
+    width: 18%;
+    border:2px solid #AC663D;
+}
+
+
+.post_content{
+    background-color: rgb(255, 255, 255); opacity:0.6;
+
+}
+/* footer */
+footer{
+    color: white;
+   text-align: center;
+   background-color:#786A68;
+
+    
+}
+.right_footer {
+    padding-right: 10px;
+      float: right;
+  }
+
+.page-container{
+    background-color: #786A68;
+    width: 100%;
+    background-image: url("images/bg_img.jpg");
+    background-size: 82%;
+    background-repeat: no-repeat;
+}
+
+}
