@@ -5,7 +5,9 @@ Author URI: localhost/wordpress
 Template: novellite
 Version: 1.0
 */
-
+.p a{
+    color: black;
+}
 @media (min-width: 1200px){
     .container {
         width: 100%;
@@ -16,17 +18,22 @@ Version: 1.0
     width: 100%;
 }
 
-/*logo*/
+/*navbar*/
 
-.navbar-header{
-    background-image: url("images/LogoACS.png");
-    
+.navbar li.current_page_item{
+    background: red;
 }
+
+/*end */
 .page_heading_container .page_heading_content h1 {
     padding: 5px 0;
     margin-bottom: 0;
     margin-top: 52px;
     color: #AC663D;
+}
+navbar li.current_page_item {
+    /* background-color: #fed136; */
+    border-bottom: 2px solid #AC663D;
 }
 .page_heading_container {
     padding: 0;
@@ -54,16 +61,31 @@ Version: 1.0
 }
 
 .col-md-9 {
-    width: 60%;   
+    width: 70%;   
     padding-left: 10%;
 }
-
+.content-bar {
+    margin: 0;
+    padding: 10%;
+    background-color: rgb(255, 255, 255); opacity:0.8;
+    margin-right: 30px;
+}
+.elementor-section {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+element.style {
+     padding-top: 170.0104px; 
+}
 /* right navigation */
 .col-md-3{
-    background-color: rgb(255, 255, 255); opacity:0.8;
+    background-color: #786A68;  opacity: 0.8 ;
+    margin-right: 3%;
+  
     float: right;
-    width: 18%;
-    border:2px solid #AC663D;
+    width: 20%;
+    border: 2px solid #AC663D;
 }
 .page-content .searchform input[type="text"], .footer-widget-area .searchform input[type="text"] {
     margin-top: 7px;
