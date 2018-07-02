@@ -1,0 +1,199 @@
+/*
+Theme Name: VCB Promo17 Enfant par Nenad Pasajlic
+Description: Theme enfant du theme VCB Promo17. Vous pouvez desormais le personnaliser sans risquer de perdre vos modifications
+Author: Nenad Pasajlic
+Author URI: localhost/wordpress
+Template: novellite
+Version: 1.0
+*/
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #786A68;
+  width: 100%;
+background-image: url("images/bg_img.jpg");
+background-size: 80%;
+background-repeat: no-repeat;
+   font-family: Helvetica;
+}
+/* Header*/
+.header{
+    background-color: #B9B1B0;
+    width: 100%;
+    float: left;
+    height: auto;
+  
+}
+.my-logo{
+  float: left;
+  background-color: #AC663D;
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.header_left{
+  float: right;
+  width: 70%
+}
+
+/* Menu */
+.menu{
+  width: 55%;
+ float: right;
+  
+  margin-right: 20px; 
+    float: right;
+    color: #AC663D
+}
+
+ul {
+  padding-right:  5%;
+  list-style-type: none;
+
+  padding: auto;
+  overflow: hidden;
+  background-color: #B9B1B0;
+}
+
+li {
+  margin: 0 5% ;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-align: center;.header_left{
+  float: right;
+  width: 70%;
+}
+  padding: 14px 16px;.header_left{
+  float: right;
+  width: 70%
+}
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  border-bottom: 5px solid  #AC663D;
+}
+
+.active {
+  background-color: #AC663D;
+}
+
+
+
+/* footer*/
+footer {
+  width: 100%;    
+  color: white;
+  position: absolute;  
+  display: inline; 
+  right: 0;
+  bottom: 0;
+  left: 0;  
+  text-align: center;
+  background-color:#786A68;
+}
+.right_footer {
+  padding-right: 10px;
+    float: right;
+}
+.left_footer{
+  width: 80%;
+    float: left;
+    text-align: center;
+}
+.footer_lg{
+  padding: auto;
+  margin: auto;
+display: inline;
+padding: auto;
+width: 130px;
+height: 50px;
+}
+body > header > h1 > a {
+color: #ffffff;
+font-weight: 400;
+}
+article > header {
+
+}
+footer {
+  margin-top: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 'Margin: 0 auto' centers block content on the page */
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content-area {
+  display: inline-block;
+}
+
+.content-thin {
+    width: 70%;
+}
+
+.content-full-width {
+    width: 100%;
+}
+
+.content-area,
+.primary-sidebar {
+  display: inline-block;
+}
+
+.primary-sidebar {
+  margin: 20px;
+  width: 17%; 
+  vertical-align: top;
+  text-align: center;
+  background-color: #ececec;
+  float: right;
+}
+
+.article-loop {
+    width: 45%;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+.article-full {
+  width: 99%;
+  padding: 1%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFF;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  opacity: 0.5;
+  margin: 20px;
+}
+
+.article-loop,
+.article-full {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFF;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}

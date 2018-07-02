@@ -19,15 +19,14 @@
 				<?php if (get_theme_mod('footertext','') != '') { ?>
 		<span class="copyright"><?php echo esc_html(get_theme_mod('footertext','')); ?></span> 
 			<?php } else { ?>
-                    <p><a href="<?php echo esc_url('http://www.themehunk.com'); ?>"><?php _e('Copyright', 'Nenad Pasajlic'); ?></a> <?php _e('Nenad Pasajlic ', 'ovellite'); ?><a href="http://www.wordpress.org"><?php _e('VCB', 'VCB'); ?></a></p>
-                    <?php } ?>
-                    <a href="#"><img src="/images/logo_ACS_slide.png" width="145" height="32" /></a>
-                    <img src="<?php bloginfo('template_url');?>/images/logo_defaut.png" alt="Logo"/>                   
-  
+                    <p><a href="<?php echo esc_url('http://localhost/wordpress/'); ?>"><?php _e('VCB ', 'VCB-Promo17'); ?></a> <?php _e('copyright ', 'Nenad'); ?><a href="http://www.wordpress.org"><?php _e(' Nenad', 'novellite'); ?></a></p>
+					<?php } ?>
+                    
+                    <img class="footer_lg" src="http://localhost/wordpress/wp-content/uploads/2018/07/logo_defaut.png" />
+                    <img class="footer_lg" src="http://localhost/wordpress/wp-content/uploads/2018/07/logo_ACS_slide.png" />
+                
 			                </div>
                     </div>
-                   
-   
         </div>
     </footer>
 	<?php wp_footer(); ?>
