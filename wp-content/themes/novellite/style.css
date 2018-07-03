@@ -336,7 +336,7 @@ color:#fff;
 }
 .navbar-header {
     padding-bottom: 10px; 
-    background-color:black;
+   
 }
 .navbar-header h1,.navbar-header p{
  margin:0;   
@@ -4386,7 +4386,8 @@ float: left;
     float: left!important;
 }
 #page-top .navbar-default{
-    margin-top: 0
+    margin-top: 0;
+
 }
 #portfolio .portfolio-item {
 margin: 0 0 45px;

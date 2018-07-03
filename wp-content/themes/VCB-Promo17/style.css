@@ -5,23 +5,94 @@ Author URI: localhost/wordpress
 Template: novellite
 Version: 1.0
 */
+
+
+
 .p a{
     color: black;
 }
-@media (min-width: 1200px){
+/*Mobile*/
+@media (max-width: 600px){
+
+    .header_container {
+        text-align: center;
+        margin-top: 25px;
+        background-color: #B9B1B0;
+    }
+    element.style {
+        padding-top: 5px;
+        color:#AC663D;
+    }
+    .page-content {
+        padding-top: 35px;
+    margin-top: 30px;
+    }
+    #page-top .navbar-default {
+        margin-top: 0;
+        padding-top: 0px;
+        background-color:#B9B1B0;
+    }
+    page_heading_content h1 {
+        padding: 5px 0;
+        margin-bottom: 0;
+        margin-top: 52px;
+        color: #AC663D;
+    }
+  
+    .row {
+    margin: 0;
+}
+.page_heading_container {
+padding: 0;
+}
+    
+    .page-content .sidebar {
+        margin-left: 0px;
+        background-color: #20222b;
+        padding: 10px;
+    }
+
+    /*footer*/
+
+.footer_lg{
+    padding: auto;
+    margin: auto;
+  display: inline;
+  padding: auto;
+  width: 120px;
+  
+  }
+}
+
+
+/*PC*/
+@media (min-width: 876px){
     .container {
         width: 100%;
     }
 
 .navbar{
-    background-color: #B9B1B0;
+    background-color: ;
     width: 100%;
 }
 
 /*navbar*/
 
-.navbar li.current_page_item{
-    background: red;
+.navbar li.current_page_item
+{
+     background: red;
+}
+.navbar-header {
+    /* padding-bottom: 10px; */
+     background-color: none;
+}
+.navbar-default {
+    margin-top: 32px;
+    background-color: #B9B1B0;
+}
+.navbar-default.navbar-shrink {
+    padding: 10px 0;
+    background-color: #B9B1B0;
 }
 
 /*end */
@@ -31,7 +102,7 @@ Version: 1.0
     margin-top: 52px;
     color: #AC663D;
 }
-navbar li.current_page_item {
+.navbar li.current_page_item {
     /* background-color: #fed136; */
     border-bottom: 2px solid #AC663D;
 }
@@ -44,9 +115,12 @@ navbar li.current_page_item {
     position: relative;
     margin-top: 0px;
     margin-bottom: 65px;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.8;
+    background-color: rgb(255, 255, 255); opacity: 0.9;
+    
     padding: 10px;
+}
+.content-bar .post {
+    margin-bottom: 1px;
 }
 
 .page-content {
@@ -59,10 +133,19 @@ navbar li.current_page_item {
     margin-bottom: 75px;
     overflow: hidden;
 }
+.page-content .sidebar ul li a, .footer-widget-area ul li a {
+    text-decoration: none;
+    /* color: #989696; */
+    color: black;
+}
 
 .col-md-9 {
     width: 70%;   
     padding-left: 10%;
+}
+.col-md-12{
+    width: 100%;
+    background-color: #20222b;
 }
 .content-bar {
     margin: 0;
@@ -81,20 +164,23 @@ element.style {
 /* right navigation */
 .col-md-3{
     background-color: #786A68;  opacity: 0.8 ;
-    margin-right: 3%;
-  
+    margin-right: 3%;  
     float: right;
     width: 20%;
     border: 2px solid #AC663D;
 }
+.page-content .sidebar img {
+    margin: auto;   
+    padding: 10%;
+    text-align: center;
+}
 .page-content .searchform input[type="text"], .footer-widget-area .searchform input[type="text"] {
-    margin-top: 7px;
-    width: 210px;
+    margin-top: 10px;
+    width: 315px;
     height: 35px;
-    background: transparent;
-    border: 1px solid #C8C8C8;
+    background: #B9B1B0;    
     padding: 1px 0px 0px 7px;
-    color: #787878;
+    color: #AC663D;
 }
 
 
@@ -109,7 +195,6 @@ element.style {
 footer{
     color: white;
     text-align: center;
-    background-color: red;
 background-image: url('http://localhost/wordpress/wp-content/uploads/2018/07/logo_ACS_slide.png');
     
 }

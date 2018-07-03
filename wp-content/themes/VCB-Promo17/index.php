@@ -31,7 +31,7 @@
             <div class="page-content">
                 <div class="col-md-9">
                     <div class="content-bar gallery"> 
-                        <?php the_content(); ?>
+                       
                         <?php
                         $limit = get_option('posts_per_page');
                         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
