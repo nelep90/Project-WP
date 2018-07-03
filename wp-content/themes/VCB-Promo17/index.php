@@ -26,7 +26,7 @@
 </div>
 </div>
 <div class="page-container">
-    <div class="container">
+    <div class="container"> 
         <div class="row">
             <div class="page-content">
                 <div class="col-md-9">

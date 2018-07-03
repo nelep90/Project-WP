@@ -13,15 +13,29 @@ Version: 1.0
 }
 /*Mobile*/
 @media (max-width: 600px){
-
+/*header */
     .header_container {
         text-align: center;
         margin-top: 25px;
         background-color: #B9B1B0;
     }
+
+    .content-bar .post .post_title a{
+        color: #010101;
+        font-size: 22px;
+        line-height: 25px;
+        text-decoration: none;
+    }
+
+    .page_heading_container{
+     padding-top: 5px;
+    }
     element.style {
         padding-top: 5px;
         color:#AC663D;
+    }
+    .elementor-section {
+        padding-top: 0;
     }
     .page-content {
         padding-top: 35px;
@@ -31,6 +45,9 @@ Version: 1.0
         margin-top: 0;
         padding-top: 0px;
         background-color:#B9B1B0;
+    }
+    .sidebar_widget{
+        padding: 10px;
     }
     page_heading_content h1 {
         padding: 5px 0;
